@@ -4,7 +4,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-struct human {
+using namespace std;
+
+struct HUMAN {
   bool vegan;
   bool cannibal;
 }; 

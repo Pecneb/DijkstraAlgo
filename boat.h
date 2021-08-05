@@ -3,13 +3,15 @@
 
 #include <stdlib.h>
 #include <stdbool.h>
-#include <math.h>
 
-struct boat {
-  size_t size;
-  size_t ppl_num;
-  size_t can_num;
-  size_t veg_num;
+using namespace std;
+
+enum SHORE = {LEFT, RIGHT};
+
+struct BOAT {
+  size_t size = 2;
+  HUMAN cargo[2];
+  SHORE shore;
 };
 
 #endif
